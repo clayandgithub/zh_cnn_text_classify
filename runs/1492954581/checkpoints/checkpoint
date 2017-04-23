@@ -1,0 +1,6 @@
+model_checkpoint_path: "/home/escenter11/wangweiwei/zh_cnn_text_classify/runs/1492954581/checkpoints/model-600"
+all_model_checkpoint_paths: "/home/escenter11/wangweiwei/zh_cnn_text_classify/runs/1492954581/checkpoints/model-200"
+all_model_checkpoint_paths: "/home/escenter11/wangweiwei/zh_cnn_text_classify/runs/1492954581/checkpoints/model-300"
+all_model_checkpoint_paths: "/home/escenter11/wangweiwei/zh_cnn_text_classify/runs/1492954581/checkpoints/model-400"
+all_model_checkpoint_paths: "/home/escenter11/wangweiwei/zh_cnn_text_classify/runs/1492954581/checkpoints/model-500"
+all_model_checkpoint_paths: "/home/escenter11/wangweiwei/zh_cnn_text_classify/runs/1492954581/checkpoints/model-600"
