@@ -6,7 +6,6 @@ import itertools
 from collections import Counter
 import os
 import word2vec_helpers
-import tensorflow as tf
 import time
 import pickle
 
@@ -62,15 +61,16 @@ def batch_iter(data, batch_size, num_epochs, shuffle=True):
 
 def test():
     # Test clean_str
-    print(clean_str("This's a huge dog! Who're going to the top."))
+    print("Test")
+    #print(clean_str("This's a huge dog! Who're going to the top."))
     # Test load_positive_negative_data_files
-    x_text,y = load_positive_negative_data_files("./tiny_data/rt-polarity.pos", "./tiny_data/rt-polarity.neg")
-    print(x_text)
-    print(y)
+    #x_text,y = load_positive_negative_data_files("./tiny_data/rt-polarity.pos", "./tiny_data/rt-polarity.neg")
+    #print(x_text)
+    #print(y)
     # Test batch_iter
-    batches = batch_iter(x_text, 2, 4)
-    for batch in batches:
-        print(batch)
+    #batches = batch_iter(x_text, 2, 4)
+    #for batch in batches:
+    #    print(batch)
 
 def mkdir_if_not_exist(dirpath):
     if not os.path.exists(dirpath):
@@ -119,3 +119,4 @@ def loadDict(dict_file):
     with open(dict_file, 'rb') as f:
         output_dict = pickle.load(f)
     return output_dict
+test()
