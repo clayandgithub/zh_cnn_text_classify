@@ -19,3 +19,11 @@ run `tensorboard --logdir /{PATH_TO_CODE}/runs/{TIME_DIR}/summaries/` to view su
 run `python eval.py --checkpoint_dir /{PATH_TO_CODE/runs/{TIME_DIR}/checkpoints}`
 如果需要测试准确率，需要指定对应的标签文件。
 如果需要分类自己提供的文件，请更改相关输入参数
+
+### 推荐运行环境
+python 2.7.13 :: Anaconda 4.3.1 (64-bit)
+tensorflow 1.0.0
+gensim 1.0.1
+
+### 说明
+若按照以上步骤无法正常运行程序，请在Issues或在博客中提问，我会尽快回复
