@@ -119,4 +119,3 @@ def loadDict(dict_file):
     with open(dict_file, 'rb') as f:
         output_dict = pickle.load(f)
     return output_dict
-test()
