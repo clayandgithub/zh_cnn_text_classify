@@ -30,4 +30,4 @@ tensorflow 1.0.0
 gensim 1.0.1
 
 ### 说明
-若按照以上步骤无法正常运行程序，请在Issues或在博客中提问，我会尽快回复
+若按照以上步骤无法正常运行程序，请在Issues或在[博客](http://blog.csdn.net/clayanddev/article/details/70738475)中提问，我会尽快回复
